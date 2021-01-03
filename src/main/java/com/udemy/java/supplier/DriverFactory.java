@@ -11,12 +11,12 @@ import java.util.function.Supplier;
 public class DriverFactory {
 
     private static final Supplier<WebDriver> chromeSupplier = () -> {
-        System.setProperty("webdriver.chrome.driver", "/Users/dejanilic/Downloads/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "/home/ubuntu/Documents/chromedriver_linux64/chromedriver");
         return new ChromeDriver();
     };
 
     private static final Supplier<WebDriver> firefoxSupplier = () -> {
-        System.setProperty("webdriver.gecko.driver", "/Users/dejanilic/Downloads/geckodriver");
+        System.setProperty("webdriver.gecko.driver", "/home/ubuntu/Documents/geckodriver_linux64/geckodriver");
         return new FirefoxDriver();
     };
 
