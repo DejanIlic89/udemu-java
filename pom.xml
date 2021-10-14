@@ -10,7 +10,7 @@
 
     <properties>
         <jdk.version>1.12</jdk.version>
-        <selenium.version>3.141.59</selenium.version>
+        <selenium.version>4.0.0</selenium.version>
         <webdrivermanager.version>3.8.1</webdrivermanager.version>
         <assertj.core.version>3.11.1</assertj.core.version>
         <testng.version>7.1.0</testng.version>
